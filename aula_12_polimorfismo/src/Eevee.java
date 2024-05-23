@@ -51,5 +51,10 @@ public class Eevee {
     public void setHp(int hp) {
         this.hp = hp;
     }
+
+    // Métodos
+    public String Attack() {
+        return "Quick Attack";
+    }
     
 }
