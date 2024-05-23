@@ -1,16 +1,20 @@
 public class Sylveon extends Eevee{
+    @Override
     public String Attack() {
         return "Charm";
     }
 
+    @Override
     public String Defense() {
         return "Dazzling Gleam";
     }
 
+    @Override
     public String Special() {
         return "Moonblast";
     }
 
+    @Override
     public void dataSheet() {
         System.out.println("---------- Sylveon ----------");
         System.out.println("Type: " + getType());

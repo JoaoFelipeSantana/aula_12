@@ -1,16 +1,20 @@
 public class Umbreon extends Eevee{
+    @Override
     public String Attack() {
         return "Feint Attack";
     }
 
+    @Override
     public String Defense() {
         return "Snarl";
     }
 
+    @Override
     public String Special() {
         return "Dark Pulse";
     }
 
+    @Override
     public void dataSheet() {
         System.out.println("---------- Umbreon ----------");
         System.out.println("Type: " + getType());

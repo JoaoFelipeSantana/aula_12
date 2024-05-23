@@ -1,16 +1,20 @@
 public class Floreon extends Eevee{
+    @Override
     public String Attack() {
         return "Ember";
     }
 
+    @Override
     public String Defense() {
         return "Fire Spin";
     }
 
+    @Override
     public String Special() {
         return "Overheat";
     }
 
+    @Override
     public void dataSheet() {
         System.out.println("---------- Floreon ----------");
         System.out.println("Type: " + getType());

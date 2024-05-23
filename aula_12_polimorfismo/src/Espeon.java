@@ -1,16 +1,20 @@
 public class Espeon extends Eevee{
+    @Override
     public String Attack() {
         return "Psychic";
     }
 
+    @Override
     public String Defense() {
         return "Confusion";
     }
 
+    @Override
     public String Special() {
         return "Future Sight";
     }
 
+    @Override
     public void dataSheet() {
         System.out.println("---------- Espeon ----------");
         System.out.println("Type: " + getType());
