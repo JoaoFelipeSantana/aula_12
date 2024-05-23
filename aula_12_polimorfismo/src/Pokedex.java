@@ -11,5 +11,16 @@ public class Pokedex {
         Glaceon glaceon = new Glaceon("Ice", 25.9, 0.8, 140);
         Sylveon sylveon = new Sylveon("Fairy", 23.5, 1, 182);
 
+        // Imprimindo os dados
+        eevee.dataSheet();
+        vaporeon.dataSheet();
+        jolteon.dataSheet();
+        floreon.dataSheet();
+        espeon.dataSheet();
+        umbreon.dataSheet();
+        leafeon.dataSheet();
+        glaceon.dataSheet();
+        sylveon.dataSheet();
+        
     }
 }
