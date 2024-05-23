@@ -1,4 +1,27 @@
 public class Sylveon extends Eevee{
+    // Atributo
+    private String type;
+
+    // Contrutor
+    public Sylveon() {
+
+    }
+    
+    public Sylveon(String type, double weight, double height, int hp) {
+        super(weight, height, hp);
+        this.type = type; 
+    }
+
+    // Método acessor
+    public String getType() {
+        return this.type;
+    }
+
+    // Método Modificador
+    public void setType(String newType) {
+        this.type = newType;
+    }
+    
     @Override
     public String Attack() {
         return "Charm";
