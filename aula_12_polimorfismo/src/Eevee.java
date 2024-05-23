@@ -18,6 +18,12 @@ public class Eevee {
         this.hp = hp;
     }
 
+    public Eevee(double weight, double height, int hp) {
+        this.weight = weight;
+        this.height = height;
+        this.hp = hp;
+    }
+
     // Métodos acessores
     public String getType() {
         return type;
