@@ -60,5 +60,9 @@ public class Eevee {
     public String Defense() {
         return "Dodge";
     }
+
+    public String Special() {
+        return "Tri_attack";
+    }
     
 }
