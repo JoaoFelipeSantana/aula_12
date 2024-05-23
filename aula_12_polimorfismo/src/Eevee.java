@@ -3,7 +3,7 @@ public class Eevee {
     // Atributos
     String type;
     double weight;
-    int height;
+    double height;
     int hp;
 
     // Contrutor
@@ -11,7 +11,7 @@ public class Eevee {
 
     }
 
-    public Eevee(String type, double weight, int height, int hp) {
+    public Eevee(String type, double weight, double height, int hp) {
         this.type = type;
         this.weight = weight;
         this.height = height;
@@ -27,7 +27,7 @@ public class Eevee {
         return weight;
     }
 
-    public int getHeight() {
+    public double getHeight() {
         return height;
     }
 
