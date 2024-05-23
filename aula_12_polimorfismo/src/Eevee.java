@@ -56,5 +56,9 @@ public class Eevee {
     public String Attack() {
         return "Quick Attack";
     }
+
+    public String Defense() {
+        return "Dodge";
+    }
     
 }
